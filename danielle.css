@@ -88,11 +88,11 @@ display: inline;
 text-align: center;   
 padding: 8px;   
 transition: all 0.5s ease;   
-color: dimgray;   
+color: white;   
 font-size: 20px;  
 }          
 .stickyicon-list a:hover {   
-color: whitesmoke;   
+color: dimgray;   
 width:10px; 
 text-align: center;
 }   

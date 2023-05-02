@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, intial scale=1">
+		<title>Danielle Mosby</title>
+	<link rel="icon" type="image/x-icon" href="1.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@2/css/all.min.css">
+    <link href="danielle.css" rel="stylesheet" type="text/css">
+
+    
+</head>
+
+<body>
+
+ <section class="hero">
+   <div class="hero-body">
+	 <div class="container">
+	   <h1 class="title">
+		   Danielle Mosby
+		 <nav class="breadcrumb is-right" aria-label="breadcrumbs">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="projects.html">Projects</a></li>
+				<li><a href="resume.html">Resume</a></li>
+				<li><a href="https://www.linkedin.com/in/danielle-mosby-0654971b7/" target="_blank">Linkedln</a></li>
+			</ul>
+		</nav>
+	   </h1>
+
+<section class="hero">
+	<section class="hero-body">
+
+        <!--column 1 - resume-->
+
+	<div class="columns is-vcentered">
+		<div class="column">
+				<h1 class="title">
+					My Resume
+				</h1>
+                <br>
+                <h5 class="subtitle is-6 is-italic is-family-sans-serif">
+                    <a href="DMResume.pdf" target="_blank">Click here to view my resume</a>
+                </h5>
+		</div>
+        
+        <!--column 2 - skills-->
+
+			<div class="column is-half is-pb-2">
+                
+                <hr class="solid">
+
+                <button type="button" class="collapsible">Education</button>
+                <div class="content">
+                  <p>
+                        <strong>University of Oklahoma</strong>
+                        <ul>
+                            <li>Major: Information Science and Technology</li>
+                            <li>Minor: Management Information Systems</li>
+                            <li>Expected Graduation: May 2025</li>
+                        </ul>
+                    
+                  </p>
+                </div>
+
+                <hr class="solid">
+
+                <button type="button" class="collapsible">Work Experience</button>
+                <div class="content">
+                  <p>
+                    <strong> Google CSSI - Remote, OK</strong>
+                    <em>Online Participant</em>
+
+                    <li>Participated in a 4-week intensive computer science summer program for high-achieving students</li>
+                    <li>Completed an introductory project-based HTML/CSS and JavaScript curriculum taught by Google
+                    engineers</li>
+                    <li>Configured 3 individual coding projects in JavaScript by using concepts such as data types and
+                    functions</li>
+                    <li>Attended product design, resume development, and software engineering interview workshops</li>
+                    <li>Delivered a collaborative final project presentation that included a live demonstration to Google
+                    employees</li>
+                 
+                  </p>
+
+                  <p>
+                    <strong> Fusion MD - Del City, OK</strong>
+                    <em>Receptionist</em>
+
+                    <li>Checked patient insurance, demographic, and health history to keep the information current. </li>
+                    <li>Coordinated patient scheduling, check-in, check-out, and billing payments.</li>
+                    <li>Supported office staff and completed operational requirements with administrative tasks</li>
+                    <li>Answered the central telephone system and directed calls accordingly.</li>
+                 
+                  </p>
+                </div>
+
+                <hr class="solid">
+
+                <button type="button" class="collapsible">Skills</button>
+                <div class="content">
+                  <p><em>Proficient in Microsoft Word, Excel, Powerpoint, Google Suite, Public Speaking
+                    HTML, CSS, JavaScript, C++, and R.</em></p>
+                  </p>
+                </div>
+
+                <hr class="solid">
+
+		
+	    </div>
+	</section>
+</section>
+
+
+	   </div>
+	 </div>
+</div>
+
+
+   <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    }
+    </script>
+   
+ </section>
+ <footer id="footer">
+    <p>
+        <a class="icon" href="https://github.com/dmosby827" target="_blank" class="github">
+          <i class="fa fa-github"></i>
+        </a>
+        <a class="icon" href="mailto:dmosby827@gmail.com" target="_blank" class="google">
+            <i class="fa fa-google"></i>
+        </a>
+        <a class="icon" href="https://www.instagram.com/danimosbyyy/" target="_blank" class="instagram">
+            <i class="fa fa-instagram"></i>	
+        </a>
+
+        <p>Danielle Mosby 2022 &copy;</p>
+       </p>
+</footer>
+
+</body>
+ 
+<!---
+<footer class="footer">
+	<div class="content has-text-centered">
+	  <p>
+		Danielle Mosby 2022 &copy;
+	  </p>
+	  <p>
+		<a class="icon" href="https://github.com/dmosby827" target="_blank" class="github">
+		  <i class="fa fa-github"></i>
+		</a>
+		<a class="icon" href="mailto:dmosby827@gmail.com" target="_blank" class="google">
+			<i class="fa fa-google"></i>
+		</a>
+		<a class="icon" href="https://www.instagram.com/danimosbyyy/" target="_blank" class="instagram">
+			<i class="fa fa-instagram"></i>	
+		</a>
+ 	  </p>
+	</div>
+</footer>
+-->
+</html>

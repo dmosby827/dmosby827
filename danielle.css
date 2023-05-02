@@ -1,7 +1,83 @@
+/*2023 CSS Update*/
 @charset "UTF-8";
 /* CSS Document */
 
 /***Entire Page***/
+html {
+	background-color: lightgray;
+	height: 100vh
+}
+body{
+	min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+	border-radius: 10px;
+}    
+
+/*Divider - solid border */
+hr.solid {
+	border-top: 3px solid #bbb;
+  }
+
+/*collapsible*/
+  
+.content {
+	padding: 0 18px;
+	background-color: transparent;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	color:black;
+  }
+
+  /* Style the button that is used to open and close the collapsible content */
+.collapsible {
+	background-color: transparent;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 30px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+	background-color: #ccc;
+  }
+  
+  #footer {
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 2.5 rem;            /* Footer height */
+	margin-top: auto;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @charset "UTF-8";
+/* CSS Document */
+
+/***Entire Page***/
+
+/*
 h1{
     font-size: 70px;
     color: white;
@@ -109,7 +185,7 @@ color: white;
 background: transparent;   
 color: white;   
 }      
-
+*/
 
 
   
